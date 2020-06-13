@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    /*margin-top: 70px;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.centered {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    color: #f85c37;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2d2d2d;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+
+}
+
+#headerwrap {
+    background: url(bandwidth-close-up-computer-connection-1148820.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    margin-top: 250px;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+}
+#headerwrap h2 {
+
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.w {
+    padding-top: 80px;
+}
+
+.w h4 {
+    font-size: 25px;
+}
+.bg {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+
+}
+#img1 {
+    background: url(dell-motherboard-and-central-processing-unit-1432675.jpg) no-repeat center top;
+    height: 400px;
+}
+#img2 {
+    background: url(green-circuit-board-343457.jpg) no-repeat center top;
+    height: 400px;
+}
+#img3 {
+    background: url(selective-focus-photography-of-motherboard-1432673.jpg) no-repeat center top;
+    height: 400px;
+}
+
+.footer1 {
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.low {
+
+    margin-top: 60px;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.lowc {
+    background-color: #e0e0e0;
+}
+
+#imglow {
+    background: url(2.jpg) no-repeat center;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.wb {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.soc {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
